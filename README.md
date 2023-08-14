@@ -32,8 +32,8 @@ Le Convertisseur d'Images en Logo Web est une application simple qui vous permet
 
 ## Auteur
 
-Nom : Votre Nom
-Contact : Votre Adresse Email
+Nom : joseph basix
+Contact : josephbasix@gmail.com
 
 ## Licence
 
