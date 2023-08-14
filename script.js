@@ -17,13 +17,13 @@ function handleConversion() {
       const img = new Image();
       img.src = e.target.result;
       img.onload = function () {
-        const logoImage = resizeImage(img, 100, 100); // Resize the image to 100x100
+        const logoImage = resizeImage(img, 100, 100); 
         
-        // Display the resized image as a logo
+    
         logoOutput.src = logoImage.src;
         logoOutput.style.display = "block";
         
-        // Enable the download link
+  
         downloadLink.href = logoImage.src;
         downloadLink.download = `logo.${selectedFormat}`;
         downloadLink.style.display = "block";
